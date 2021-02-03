@@ -515,6 +515,10 @@ footer {
     margin-top: 0;
   }
 
+  .tabs ul li {
+    padding: 10px 5px;
+  }
+
   .main-image {
     background-repeat: no-repeat;
     background-position:  bottom center;
@@ -583,4 +587,42 @@ footer {
     padding-top: 20px;
     border-bottom: 1px dashed #000000;
   }
+}
+
+/*SMALL MOBILE DEVICES*/
+@media (max-width: 420px) {
+  aside nav ul li a {
+    font-size: 9.5px;
+  }
+
+  .main-image {
+    height: 270px;
+  }
+
+  .main-title {
+    bottom: 26px;
+    width: 75%;
+  }
+  
+  .main-title p {
+    font-size: 14px;
+  }
+  
+  .main-subtitle {
+    font-size: 11px;
+  }
+  
+  .main-subtitle p {
+    font-weight: bold;
+    margin: 5px 0;
+  }
+
+  .newsletter {
+    padding: 10px;
+  }
+
+  .newsletter .description {
+    font-size: 9px;
+  }
+
 }
