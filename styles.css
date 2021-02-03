@@ -139,6 +139,7 @@ aside nav ul a {
 .main-subtitle {
   background-color: #000000;
   color: #ffffff;
+  width: intrinsic;
   width: fit-content;
   overflow: auto;
   position: absolute;
@@ -336,6 +337,16 @@ footer {
 
   .last-tweet p {
     font-size: 10px;
+  }
+
+  .btn {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .sidebar-article button img {
+    width: 15px;
+    height: 12.5px;
   }
 }
 
