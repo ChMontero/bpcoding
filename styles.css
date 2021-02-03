@@ -592,7 +592,7 @@ footer {
 /*SMALL MOBILE DEVICES*/
 @media (max-width: 420px) {
   aside nav ul li a {
-    font-size: 9.5px;
+    font-size: 9.25px;
   }
 
   .main-image {
