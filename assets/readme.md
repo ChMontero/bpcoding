@@ -1,0 +1,1 @@
+# Intekglobal Assets
