@@ -517,12 +517,12 @@ footer {
 
   .main-image {
     background-repeat: no-repeat;
-    background-position: center;
-    height: 330px;
+    background-position:  bottom center;
+    height: 310px;
   }
 
   .main-title {
-    bottom: 35px;
+    bottom: 32px;
     width: 75%;
   }
   
@@ -534,6 +534,7 @@ footer {
   .main-subtitle {
     bottom: 0;
     width: 100%;
+    font-size: 14px;
   }
   
   .main-subtitle p {
